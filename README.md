@@ -20,13 +20,12 @@
 -->
 
 [![Contributors][contributors-shield]][contributors-url]
-
-<!-- [![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url] -->
-
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
+
+<!-- [![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url] -->
 
 <!-- PROJECT LOGO -->
 <br />
@@ -38,7 +37,7 @@
 <h3 align="center">Mission 5</h3>
 
   <p align="center">
-    project_description
+    In this repo, we will setup the infrastructure for our UX Designer's application to run.  Our application and database will reside inside of Docker containers, and we have choosen Docker as the container, amongst Docker Compose, Kubernetes, and/or Minikube to host and run the containers.  
     <br />
     <a href="https://github.com/Lennardj/MRHQ-Level-5-Mission-5/wiki"><strong>Explore the docs »</strong></a>
     <br />
