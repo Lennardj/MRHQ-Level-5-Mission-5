@@ -20,8 +20,10 @@
 -->
 
 [![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
+
+<!-- [![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url] -->
+
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
@@ -30,18 +32,19 @@
 <br />
 <div align="center">
   <a href="https://github.com/lennardj/MRHQ-Level-5-Mission-5">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/logo.jpeg" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">Mission 5</h3>
 
   <p align="center">
     project_description
     <br />
-    <a href="https://github.com/lennardj/MRHQ-Level-5-Mission-5"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Lennardj/MRHQ-Level-5-Mission-5/wiki"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/lennardj/MRHQ-Level-5-Mission-5">View Demo</a>
+    <a href="https://github.com/lennardj/MRHQ-Level-5-Mission-5">View Demo</a>  
+    <!-- Adda link to the live demo of the app -->
     ·
     <a href="https://github.com/lennardj/MRHQ-Level-5-Mission-5/issues">Report Bug</a>
     ·
@@ -66,12 +69,12 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
+    <!-- <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li> -->
   </ol>
 </details>
 
@@ -87,14 +90,16 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ### Built With
 
-- [![Next][next.js]][next-url]
+- [![Node][node.js]][node-url]
+- [![Express][express.js]][express-url]
 - [![React][react.js]][react-url]
-- [![Vue][vue.js]][vue-url]
+- [![MongoDB][mongodb.com]][mongodb-url]
+<!-- - [![Vue][vue.js]][vue-url]
 - [![Angular][angular.io]][angular-url]
 - [![Svelte][svelte.dev]][svelte-url]
 - [![Laravel][laravel.com]][laravel-url]
 - [![Bootstrap][bootstrap.com]][bootstrap-url]
-- [![JQuery][jquery.com]][jquery-url]
+- [![JQuery][jquery.com]][jquery-url] -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -184,9 +189,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - lennardvincentjohn@gmail.com
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/lennardj/MRHQ-Level-5-Mission-5](https://github.com/lennardj/MRHQ-Level-5-Mission-5)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
