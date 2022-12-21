@@ -1,0 +1,24 @@
+version: "3.latest"
+
+services:
+# MondoDB service
+mongo_db:
+  container_name: db_container
+  image: mongo:latest
+  restart: always
+  volumes:
+    - mongo_db:/data/db
+# Node Js API service
+api:
+  container_name: api_container
+  build: ./backend/
+  ports: 3000:3000
+  environment:
+    PORT: 3000
+    MONGODB_URL: mongo://mongo_db:27017
+    DB_NAME: labtops
+    NAME: LennardJohn
+  depends_on:
+    - mongo_db
+volumes:
+  mongo_db: {}
