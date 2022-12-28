@@ -37,7 +37,7 @@ services:
       - mission5
     environment:
       PORT: 5000
-      MONGODB_URL: mongo://mongo_db:27017
+      MONGODB_URL: "mongo://mongo_db:27017"
       # DB_NAME: labtops
       # NAME: LennardJohn
     depends_on:
