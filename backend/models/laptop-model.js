@@ -1,13 +1,8 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
-const Laptop = new Schema(
-  {
-    name: { type: String, required: true },
-    time: { type: [String], required: true },
-    rating: { type: Number, required: true },
-  },
-  { timestamps: true }
-);
+const Laptop = new Schema({
+  name: { type: String, required: true },
+});
 
-module.exports = mongoose.model("movies", Movie);
+module.exports = mongoose.model("Laptop", Laptop);
