@@ -1,6 +1,7 @@
 const Laptop = require("../models/laptop-model");
-getLaptop = async (req, res) => {
-  await Laptop.find({}, (err, laptop) => {
+
+const getLaptop = (req, res) => {
+  Laptop.find({}, (err, laptop) => {
     if (err) {
       return res.status(400).json({ success: false, error: err });
     }

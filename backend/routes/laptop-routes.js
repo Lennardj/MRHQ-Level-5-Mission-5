@@ -4,6 +4,6 @@ const LaptopCtrl = require("../controllers/laptop-ctrl");
 
 const router = express.Router();
 
-router.get("/laptop", LaptopCtrl.getLaptop);
+router.get("/laptops", LaptopCtrl.getLaptop);
 
 module.exports = router;

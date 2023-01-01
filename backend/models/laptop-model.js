@@ -5,4 +5,4 @@ const Laptop = new Schema({
   name: { type: String, required: true },
 });
 
-module.exports = mongoose.model("Laptop", Laptop);
+module.exports = mongoose.model("laptops", Laptop);
