@@ -1,13 +1,43 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+body,
+html {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Inter", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+/* Make a single class for all the buttons */
+.btn {
+  pointer-events: auto;
+  cursor: pointer;
+  width: 9.1875rem;
+  height: 2.125rem;
+  font-family: "Inter", sans-serif;
+}
+:root {
+  --bg: #0d5078;
+  --bg-accent: #0d5078cc;
+  --text-color: #ffffff;
+  --nav-size: 60px;
+  --border: 1px solid;
+  --border-radius: 8px;
+  --speed: 500ms;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: var(--text-color);
+  text-decoration: none;
+}
+.Footer {
+  background-color: var(--bg);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
 }
